@@ -2,6 +2,7 @@ import { useState } from 'react'
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
+import UtcDynamicColorH1 from './components'
 import './App.css'
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>Get started</h1>
+          {<UtcDynamicColorH1/>}
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
