@@ -1,0 +1,21 @@
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 30px #ccc;
+  padding: 16px;
+  width: 240px;
+  /* float: left removed; handled by flexbox container */
+}
+
+.note h1 {
+  font-size: 1.4em;
+  margin-bottom: 8px;
+}
+
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: "Trirong", serif;
+}
