@@ -1,0 +1,33 @@
+/* Global desk background */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f4f6;
+  background-image: radial-gradient(#d1d5db 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Main App container that acts as your laptop lid / workspace */
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+/* Positioning class to place any widget on the top right */
+.top-middle-section {
+  display: flex;
+  justify-content: center;
+}
+
+.left-section {
+  display: flex;
+  justify-content: flex-start;
+}

@@ -1,0 +1,72 @@
+/* Sticker Card */
+
+.counter-sticker {
+  background: #ffffff;
+  border: 2px solid #111827;
+  border-radius: 12px;
+  padding: 24px 36px;
+  box-shadow: 4px 4px 0px #111827;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  min-width: 220px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.counter-sticker:hover {
+  transform: translateY(-2px);
+  box-shadow: 6px 6px 0px #111827;
+}
+
+/* Counter number */
+.counter-sticker h1 {
+  font-size: 3.5rem;
+  color: #111827;
+  margin: 0;
+  font-weight: 800;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Horizontal button group */
+.button-group {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button styling */
+.counter-sticker button {
+  background-color: #6495ED;
+  color: #111827;
+  border: 2px solid #111827;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 0px #111827;
+  transition: all 0.1s ease;
+}
+
+.counter-sticker button:hover {
+  background-color: #f3f4f6;
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px #111827;
+}
+
+.counter-sticker button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px #111827;
+}
+
+.counter-sticker p {
+  font-family: "Sofia", cursive, sans-serif;
+  font-size: 1.25rem;
+  color: #374151;
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
