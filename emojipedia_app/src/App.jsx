@@ -1,6 +1,7 @@
 import './App.css'
 import DefinitionCard from './components/DictCards';
 import emoji_data from './components/emoji_data'
+import './practice_es6_functions'
 function App() {
   return (
     <div>
