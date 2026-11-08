@@ -1,0 +1,39 @@
+.term {
+  text-align: center;
+  max-width: 20rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 12px; /* Smoother, softer rounded corners */
+  box-shadow: 0 4px 20px rgba(195, 177, 178, 0.15); /* Soft pink-gray shadow */
+  background-color: #ffffff;
+  transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+
+/* Adds a gentle lift effect when you hover over a card */
+.term:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(195, 177, 178, 0.25);
+}
+
+.term dt {
+  color: #d17a7b; /* Soft dusty rose accent for headers */
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.term dt span.term-name {
+  font-size: 200%;
+  font-weight: 700;
+}
+
+.emoji {
+  margin: 0 auto 20px;
+  display: block;
+  font-size: 400%;
+}
+
+dd {
+  font-size: 92.5%;
+  margin-left: 0;
+  color: #8c7d7e; /* Softer text color for descriptions */
+}

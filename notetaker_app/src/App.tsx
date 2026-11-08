@@ -1,17 +1,17 @@
-import Header from "./components/header"
+import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Note from "./components/Note"
-import './App.css'
+import "./App.css";
 
 function App() {
   return(
-    <body>
+    <div>
       <header><Header/></header>
       <div className="note">
         <Note />
       </div>
       <footer><Footer /></footer>
-    </body>
+    </div>
     
   )
 }
