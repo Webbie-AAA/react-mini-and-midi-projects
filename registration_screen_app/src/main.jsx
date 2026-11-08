@@ -1,9 +1,10 @@
 import {createRoot} from 'react-dom/client'
+import { StrictMode } from 'react';
 import App from './App'
 
-const fname = 'Umelbaneen'
-const lname = 'Al-Mousawi'
-
 createRoot(document.getElementById('root')).render(
-  <App/>
+  <StrictMode>
+    <App/>
+  </StrictMode>
+  
 )
