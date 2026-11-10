@@ -10,12 +10,12 @@ progressing toward a full note-taking app.
 
 | # | Project | Concepts practised |
 |---|---------|--------------------|
-| 01 | [Dynamic Heading](./01-dynamic-heading) | Components, dynamic content |
-| 02 | [useState Hook](./02-usestate-hook) | State, event handlers |
+| 01 | [Notetaker App](./01-notetakerApp-final-project) ⭐ | Add/remove notes, lifting state, full CRUD-style flow |
+| 02 | [Dynamic Heading](./02-dynamic-heading) | Components, dynamic content |
 | 03 | [Profile Cards](./03-profile-cards) | Props, rendering multiple components |
-| 04 | [Registration Screen](./04-registration-screen) | Forms, controlled inputs |
+| 04 | [useState Hook](./04-usestate-hook) | State, event handlers |
 | 05 | [Emojipedia](./05-emojipedia) | ES6 `map`, data-driven rendering |
-| 06 | [Notetaker App](./06-notetaker-app) ⭐ | Add/remove notes, lifting state, full CRUD-style flow |
+| 06 | [Registration Screen](./06-registration-screen) | Forms, controlled inputs |
 
 ## Notebooks
 The [`notebooks`](./notebooks) folder holds Jupyter notebooks with my notes and
