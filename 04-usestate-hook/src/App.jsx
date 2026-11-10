@@ -1,7 +1,7 @@
 import './App.css'
 import CounterWidget from './Components/CounterWidget/CountingWidget';
 import GetDateTime from './Components/DateTimeWidget/GetDateTime';
-
+import CarCatalogue from './object_and_array_destructuring/destructuring';
 function App(){
     return(
         <div className='app-container'>
@@ -11,6 +11,7 @@ function App(){
             <div className='left-section'>
                 <CounterWidget/>
             </div>
+            <CarCatalogue/>
         </div>
     )
 }
